@@ -1,0 +1,520 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width:1901px) {
+    .hero-area {
+        padding-top:93px;
+        padding-bottom:427px;
+        background-position:100% 20px;
+        background-size: cover;
+    }
+    .features-area {
+        padding-top:80px;
+        padding-bottom:67px;
+        background-position:100% 500px;
+        background-size: cover;
+    }
+
+}
+@media screen and (min-width:1701px) and (max-width:1900px) {
+    .hero-area {
+        padding-top:93px;
+        padding-bottom:427px;
+        background-position:100% 20px;
+        background-size: cover;
+    }
+    .features-area {
+        padding-top:80px;
+        padding-bottom:67px;
+        background-position:100% 500px;
+        background-size: cover;
+    }
+
+}
+@media screen and (min-width: 1501px) and (max-width:1700px) {
+    .hero-area {
+        padding-top:93px;
+        padding-bottom:427px;
+        background-position:100% 100px;
+        background-size: cover;
+    }
+    .features-area {
+        padding-top:80px;
+        padding-bottom:67px;
+        background-position:100% 600px;
+        background-size: cover;
+    }
+
+}
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .hero-area {
+        padding-top:93px;
+        padding-bottom:427px;
+        background-position:100% 200px;
+        background-size: cover;
+    }
+    .features-area {
+        padding-top:80px;
+        padding-bottom:67px;
+        background-position:100% 700px;
+        background-size: cover;
+    }
+
+
+
+
+
+
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.hero-area {
+    padding-top:93px;
+    padding-bottom:427px;
+    background-position:100% 270px;
+    background-size: cover;
+}
+.features-area {
+    padding-top:80px;
+    padding-bottom:67px;
+    background-position:100% 700px;
+    background-size: cover;
+}
+
+
+.menu-item ul {
+    gap:40px;
+}
+.menu-btn a:nth-child(2) {
+    width: 100%;
+    max-width:130px;
+    min-height:48px;
+    font-size:14px;
+}
+
+
+.features-item {
+    padding:35px 10px 26px 40px;
+}
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.menu-item {
+    display:none;
+}
+.menu-btn {
+    display:none;
+}
+.logo i {
+    display:block;
+}
+
+.hero-area {
+    padding-top:93px;
+    padding-bottom:427px;
+    background-position:100% 270px;
+    background-size: cover;
+}
+.features-area {
+    padding-top:80px;
+    padding-bottom:67px;
+    background-position:50% 1200px;
+    background-size: cover;
+}
+
+.horizon-item1 {
+    text-align:center;
+    padding:0;
+    margin-bottom:20px;
+}
+.purchase-btn {
+    justify-content:flex-start;
+    margin-top:30px;
+}
+.whatget-item ul {
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap:10px;
+}
+.social-icon ul {
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+    .menu-item {
+        display:none;
+    }
+    .menu-btn {
+        display:none;
+    }
+    .logo i {
+        display:block;
+    }
+    
+    .hero-area {
+        padding-top:93px;
+        padding-bottom:427px;
+        background-position:50% 180px;
+        background-size: cover;
+    }
+    .features-area {
+        padding-top:80px;
+        padding-bottom:67px;
+        background-position:50% 1200px;
+        background-size: cover;
+    }
+    
+    .horizon-item1 {
+        text-align:center;
+        padding:0;
+        margin-bottom:20px;
+    }
+    .purchase-btn {
+        justify-content:flex-start;
+        margin-top:30px;
+    }
+    .whatget-item ul {
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        gap:10px;
+    }
+    .social-icon ul {
+        justify-content:center;
+    }    
+
+    .allright-reserve ul {
+        gap:15px;
+    }
+
+
+/* responsive here */
+.hero-item > h1 {
+    font-size:25px;
+    max-width:400px;
+}
+.hero-item > h1 span {
+    font-size:25px;
+
+}
+.hero-item p {
+    font-size:14px;
+}
+.hero-area {
+    padding-top:60px;
+    padding-bottom:200px;
+}
+.hero-btn {
+    margin-top:30px;
+}
+.supported-body {
+    gap:25px;
+}
+.supported-body a img {
+    max-width:150px;
+}
+.supported-footer a {
+    margin-top:20px;
+}
+.supported-header h6 {
+    margin-bottom:20px;
+}
+.supported-area {
+    padding-top:40px;
+    padding-bottom:50px;
+}
+.features-header h2 {
+    font-size:25px;
+}
+.features-header p {
+    font-size:12px;
+    margin-bottom:25px;
+}
+.features-item h3 {
+    font-size:18px;
+}
+.features-item p {
+    font-size:14px;
+    padding-right:10px;
+}
+.faq-header h2 {
+    font-size:25px;
+    margin-bottom:15px;
+}
+.accordion-button {
+    font-size:14px;
+}
+.accordion-button:not(.collapsed) {
+    font-size:14px;
+}
+.card-body p {
+    font-size:12px;
+}
+.faq-area {
+    padding:50px 0;
+}
+.horizon-area {
+    padding-top:40px;
+    padding-bottom: 100px;
+}
+.horizon-item1 p {
+    font-size:12px;
+}
+
+.horizon-item2 h4 {
+    font-size:16px;
+}
+.horizon-item2 p {
+    font-size:12px;
+}
+.fmenu-item ul {
+    justify-content: flex-end;
+}
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .menu-item {
+        display:none;
+    }
+    .menu-btn {
+        display:none;
+    }
+    .logo i {
+        display:block;
+    }
+    
+    .hero-area {
+        padding-top:93px;
+        padding-bottom:427px;
+        background-position:50% 250px;
+        background-size: cover;
+        background-size:600px;
+        padding-bottom:300px;
+    }
+    .features-area {
+        padding-top:80px;
+        padding-bottom:67px;
+        background-position:50% 1200px;
+        background-size: cover;
+    }
+    
+    .horizon-item1 {
+        text-align:center;
+        padding:0;
+        margin-bottom:20px;
+    }
+    .purchase-btn {
+        justify-content:flex-start;
+        margin-top:30px;
+    }
+    .whatget-item ul {
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        gap:10px;
+    }
+    .social-icon ul {
+        justify-content:center;
+    }    
+
+
+
+/* responsive here */
+.hero-item > h1 {
+    font-size:25px;
+    max-width:400px;
+}
+.hero-item > h1 span {
+    font-size:25px;
+
+}
+.hero-btn a:nth-child(2) {
+    font-size:14px;
+    max-width:140px;
+    min-height:45px;
+}
+.hero-btn a:nth-child(1) {
+    font-size:14px;
+    max-width:130px;
+    min-height:45px;
+}
+.hero-item p {
+    font-size:14px;
+}
+.hero-area {
+    padding-top:60px;
+    padding-bottom:200px;
+}
+.hero-btn {
+    margin-top:30px;
+}
+.supported-body {
+    gap:15px;
+}
+.features-btn button::after {
+    width:50px;
+}
+.features-btn button::before {
+    width:50px;
+}
+.price-row {
+    padding:15px;
+}
+.price-button {
+    flex-direction:column;
+    align-items:flex-start;
+}
+.price-button label {
+    max-width:100%;
+}
+.supported-body a img {
+    max-width:100px;
+}
+.supported-footer a {
+    margin-top:20px;
+}
+.supported-header h6 {
+    margin-bottom:20px;
+}
+.supported-area {
+    padding-top:40px;
+    padding-bottom:50px;
+}
+.features-header h2 {
+    font-size:25px;
+}
+.features-header p {
+    font-size:12px;
+    margin-bottom:25px;
+}
+.features-item h3 {
+    font-size:18px;
+}
+.features-item p {
+    font-size:14px;
+    padding-right:10px;
+}
+.faq-header h2 {
+    font-size:20px;
+    margin-bottom:15px;
+}
+.accordion-button {
+    font-size:10px;
+}
+.accordion-button:not(.collapsed) {
+    font-size:10px;
+}
+.card-body p {
+    font-size:12px;
+}
+.faq-area {
+    padding:50px 0;
+}
+.horizon-area {
+    padding-top:40px;
+    padding-bottom: 100px;
+}
+.horizon-item1 p {
+    font-size:12px;
+}
+
+.horizon-item2 h4 {
+    font-size:16px;
+}
+.horizon-item2 p {
+    font-size:12px;
+}
+.fmenu-item ul {
+    justify-content:center;
+    margin-bottom:20px;
+}
+.allright-reserve ul li a {
+    font-size:10px;
+}
+.allright-reserve ul {
+    gap:10px;
+    flex-wrap: wrap;
+}
+.flogo a img {
+    width:60px;
+    height:60px;
+}
+.allright-reserve {
+    padding:20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
